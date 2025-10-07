@@ -1,7 +1,7 @@
 
 // How would you do that?
 //   By using a single underlying array that stores all elements,
-//   and a variable (size) that tracks how many elements are currently stored.
+//   and a variable that tracks how many elements are currently stored.
 //
 // How would you implement the automatic expansion?
 //   When size reaches currentCapacity, create a new array with larger capacity, copy all elements into it, 
