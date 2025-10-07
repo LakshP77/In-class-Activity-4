@@ -19,11 +19,9 @@ public class FavoriteMovies {
             System.out.println("- " + movie);
         }
         System.out.println("Total movies: " + movies.size());
-        // Instrument used: a **for-each loop** to print elements and the `.size()` method to count them.
 
         // 4. Remove one movie by name
         movies.remove("Parasite"); 
-        // Method used: `.remove(Object o)`
 
         // 5. Search for a movie by its name
         String searchTitle = "Inception";
@@ -32,14 +30,12 @@ public class FavoriteMovies {
         } else {
             System.out.println("\nMovie not found: " + searchTitle);
         }
-        // Method used: `.contains(Object o)`
 
         // 6. Replace one movie by a new title
         int index = movies.indexOf("The Dark Knight");
         if (index != -1) {
             movies.set(index, "The Batman");
         }
-        // Method used: `.set(int index, E element)`
 
         // 7. Display the updated list
         System.out.println("\n🎥 Updated Movie List:");
